@@ -162,3 +162,61 @@ button{
 
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
+.project-card{
+
+    transition:0.3s ease;
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+}
+
+.skill-card{
+
+    transition:0.3s ease;
+}
+
+.skill-card:hover{
+
+    transform:scale(1.05);
+}
+@media(max-width:768px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        gap:20px;
+
+        padding:20px;
+    }
+
+    .nav-links{
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .hero-text h1{
+
+        font-size:2rem;
+    }
+
+    .project-card{
+
+        width:100%;
+    }
+
+}
+.footer{
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+}
